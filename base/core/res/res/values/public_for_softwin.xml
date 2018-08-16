@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+
+
+<!-- ===============================================================
+     add gamekey resource 
+     =============================================================== -->
+<eat-comment />
+<java-symbol type="layout" name="gpad_keymapping_layout"  />
+<java-symbol type="id" name="gpad_select"  />
+<java-symbol type="id" name="gpad_start"  />
+<java-symbol type="id" name="gpad_l"  />
+<java-symbol type="id" name="gpad_r" />
+<java-symbol type="id" name="gpad_l2"  />
+<java-symbol type="id" name="gpad_r2"  />
+<java-symbol type="id" name="gpad_xl"  />
+<java-symbol type="id" name="gpad_xr" />
+<java-symbol type="id" name="gpad_xl2"  />
+<java-symbol type="id" name="gpad_xr2"  />
+<java-symbol type="id" name="gpad_l3" />
+<java-symbol type="id" name="gpad_r3" />
+<java-symbol type="id" name="gpad_mc_x" />
+<java-symbol type="id" name="gpad_mc_y" />
+<java-symbol type="id" name="gpad_mc_a" />
+<java-symbol type="id" name="gpad_mc_b" />
+<java-symbol type="id" name="gpad_analog_l" />
+<java-symbol type="id" name="gpad_analog_r" />
+<java-symbol type="id" name="gpad_analog_view" />
+<java-symbol type="id" name="gpad_fx_up" />
+<java-symbol type="id" name="gpad_fx_down" />
+<java-symbol type="id" name="gpad_fx_left" />
+<java-symbol type="id" name="gpad_fx_right" />
+
+<java-symbol type="id" name="gpad_menu_layout" />
+<java-symbol type="id" name="gpad_menu_able" />
+<java-symbol type="id" name="gpad_menu_disable" />
+<java-symbol type="id" name="gpad_menu_mode1" />
+<java-symbol type="id" name="gpad_menu_mode2" />
+<java-symbol type="id" name="gpad_reset" />
+<java-symbol type="id" name="gpad_rocker_right" />
+<java-symbol type="id" name="gpad_rocker_left" />
+<java-symbol type="id" name="gpad_rocker_view" />
+<java-symbol type="id" name="gpad_left_smaller" />
+<java-symbol type="id" name="gpad_left_bigger" />
+<java-symbol type="id" name="gpad_right_smaller" />
+<java-symbol type="id" name="gpad_right_bigger" />
+<java-symbol type="id" name="gpad_right_control" />
+<java-symbol type="id" name="rocker_left_enable"  />
+<java-symbol type="id" name="rocker_right_enable"  />
+<java-symbol type="id" name="rocker_view_enable" />
+
+<java-symbol type="drawable" name="gpad_analog_l" />
+<java-symbol type="drawable" name="gpad_analog_r" />
+<java-symbol type="drawable" name="gpad_analog_view" />
+</resources>

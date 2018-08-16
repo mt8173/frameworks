@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="root"
+    android:alpha="1.0"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024" >
+    <group android:name="ic_signal_ultra_battery_saver">
+        <path
+            android:name="head1"
+            android:fillColor="#FFFFFF"
+            android:pathData="M757.248 920.704 246.4 920.704l0-141.141333c0 0-36.053333 4.48-61.354667-22.357333l0 183.893333c0 22.613333 18.346667 40.874667 40.874667 40.874667l551.722667 0c22.613333 0 40.874667-18.261333 40.874667-40.874667l0-265.002667-61.269333-61.269333L757.248 920.704z"/>
+        <path
+            android:name="head2"
+            android:fillColor="#FFFFFF"
+            android:pathData="M655.018667 368.981333l72.746667 96.981333c-79.018667 53.76-238.378667 151.125333-379.221333 168.661333-152.234667 18.986667-204.373333-68.394667-204.373333-102.144 0-43.264 40.874667-81.749333 40.874667-81.749333l0 76.672c0 0 27.605333 32.384 61.354667 26.794667L246.4 185.045333l122.581333 0 265.685333 0 122.624 0 0 94.506667 61.269333-2.56L818.56 164.565333c0-22.528-18.261333-40.874667-40.874667-40.874667l-102.144 0L675.541333 82.901333c0-22.613333-18.346667-40.874667-40.874667-40.874667L368.981333 42.026667c-22.528 0-40.874667 18.261333-40.874667 40.874667l0 40.832L225.92 123.733333c-22.528 0-40.874667 18.346667-40.874667 40.874667L185.045333 328.106667c0 0-125.610667 91.690667-122.581333 204.330667 2.432 91.690667 122.453333 356.650667 713.856-1.749333l62.634667 83.498667 122.624-286.08L655.018667 368.981333zM389.418667 103.296l224.768 0 0 20.394667L389.418667 123.690667 389.418667 103.296z" />
+    </group>
+</vector>

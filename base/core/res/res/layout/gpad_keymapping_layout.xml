@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/gpad_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="10dip"
+        android:text="@string/gpad_reset" />
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!-- start select -->
+        <ImageButton
+            android:id="@+id/gpad_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="700px"
+            android:layout_y="600px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_select" />
+
+        <ImageButton
+            android:id="@+id/gpad_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="600px"
+            android:layout_y="600px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_start" />
+
+        <!-- l,r -->
+
+        <ImageButton
+            android:id="@+id/gpad_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_l" />
+
+        <ImageButton
+            android:id="@+id/gpad_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="350px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_l2" />
+
+        <ImageButton
+            android:id="@+id/gpad_xl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_xl" />
+
+        <ImageButton
+            android:id="@+id/gpad_xl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="350px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_xl2" />
+
+
+        <ImageButton
+            android:id="@+id/gpad_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="450px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_l3" />
+
+        <ImageButton
+            android:id="@+id/gpad_r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="700px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_r3" />
+
+        <ImageButton
+            android:id="@+id/gpad_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="800px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_r2" />
+
+        <ImageButton
+            android:id="@+id/gpad_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="900px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_r" />
+
+        <ImageButton
+            android:id="@+id/gpad_xr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="800px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_xr2" />
+
+        <ImageButton
+            android:id="@+id/gpad_xr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="900px"
+            android:layout_y="50px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_xr" />
+
+        <!-- a,b,x,y -->
+
+        <ImageButton
+            android:id="@+id/gpad_mc_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="800px"
+            android:layout_y="200px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_mc_y" />
+
+        <ImageButton
+            android:id="@+id/gpad_mc_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="850px"
+            android:layout_y="150px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_mc_x" />
+
+        <ImageButton
+            android:id="@+id/gpad_mc_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="850px"
+            android:layout_y="250px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_mc_b" />
+
+        <ImageButton
+            android:id="@+id/gpad_mc_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="900px"
+            android:layout_y="200px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_mc_a" />
+
+        <!-- fang xiang key -->
+
+        <ImageButton
+            android:id="@+id/gpad_fx_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="300px"
+            android:layout_y="150px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_fx_up"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/gpad_fx_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250px"
+            android:layout_y="200px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_fx_left"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/gpad_fx_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="350px"
+            android:layout_y="200px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_fx_right"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/gpad_fx_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="300px"
+            android:layout_y="250px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_fx_down"
+            android:visibility="visible" />
+
+        <!-- three analog -->
+
+        <ImageButton
+            android:id="@+id/gpad_analog_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="800dp"
+            android:layout_y="350dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_analog_view" />
+
+        <ImageButton
+            android:id="@+id/gpad_analog_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="800px"
+            android:layout_y="350px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_analog_r"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/gpad_analog_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50px"
+            android:layout_y="350px"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gpad_analog_l" />
+
+        <!-- menu -->
+
+        <LinearLayout
+            android:id="@+id/gpad_menu_layout"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="5dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/gpad_menu_item_normal"
+                android:gravity="center"
+                android:src="@drawable/gpad_menu_header" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/gpad_menu_able"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/gpad_menu_item_bg"
+                    android:clickable="true"
+                    android:singleLine="true"
+                    android:text="@string/gpad_menu_able"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/gpad_menu_disable"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/gpad_menu_item_bg"
+                    android:clickable="true"
+                    android:singleLine="true"
+                    android:text="@string/gpad_menu_disable"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/gpad_mode_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/gpad_menu_mode1"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/gpad_menu_item_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/gpad_menu_mode1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/gpad_menu_mode2"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/gpad_menu_item_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/gpad_menu_mode2"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/gpad_rocker_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip" >
+
+                    <Button
+                        android:id="@+id/rocker_left_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="@drawable/gpad_menu_item_normal"
+                        android:clickable="false"
+                        android:text="@string/gpad_rocker_left"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/rocker_left_enable"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:button="@drawable/gpad_menu_analog_select"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/gpad_left_smaller"
+                        android:layout_width="0dip"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/gpad_menu_item_bg"
+                        android:clickable="true"
+                        android:text="@string/gpad_smaller"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/gpad_left_bigger"
+                        android:layout_width="0dip"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/gpad_menu_item_bg"
+                        android:text="@string/gpad_bigger"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpad_rocker_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip" >
+
+                    <Button
+                        android:id="@+id/rocker_right_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="@drawable/gpad_menu_item_normal"
+                        android:clickable="false"
+                        android:text="@string/gpad_rocker_right"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/rocker_right_enable"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:button="@drawable/gpad_menu_analog_select"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/gpad_right_smaller"
+                        android:layout_width="0dip"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/gpad_menu_item_bg"
+                        android:clickable="true"
+                        android:text="@string/gpad_smaller"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/gpad_right_bigger"
+                        android:layout_width="0dip"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/gpad_menu_item_bg"
+                        android:text="@string/gpad_bigger"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpad_rocker_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip" >
+
+                    <Button
+                        android:id="@+id/rocker_view_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="@drawable/gpad_menu_item_normal"
+                        android:clickable="false"
+                        android:text="@string/gpad_rocker_view"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:id="@+id/rocker_view_enable"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:button="@drawable/gpad_menu_analog_select"
+                        android:checked="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:background="@drawable/gpad_menu_item_bg_default"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+                    <RatingBar
+                        android:id="@+id/gpad_right_control"
+                        style="?@android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:rating="3"
+                        android:stepSize="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </AbsoluteLayout>
+
+
+
+</FrameLayout>
